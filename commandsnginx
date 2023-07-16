@@ -1,0 +1,8 @@
+sudo su-
+apt -get update -y
+apt -intsall nginx -y
+systemctl stop nignx
+cd /var/www/html
+ls
+rm index(path of file)
+nano index.html
